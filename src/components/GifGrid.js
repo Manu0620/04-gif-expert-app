@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 
-
 export const GifGrid = ({ category }) => {
     
     const [count, setCount] = useState(0);
@@ -25,6 +24,7 @@ export const GifGrid = ({ category }) => {
         })
 
         console.log(gifs);
+        //setImgs
 
     }
 
