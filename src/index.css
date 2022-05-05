@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 *{
-
     font-family: Montserrat;
-    text-align: left;
-
 }
 
 html, body {
@@ -12,13 +9,21 @@ html, body {
     background-color: rgb(0, 0, 0);
     color: white;
     padding: 30px;
-
 }
 
 h2{
+
     font-size: xx-large;
     text-align: center;
     color: rgb(255, 45, 45);
+    
+}
+
+li{
+
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+
 }
 
 .btn{
@@ -53,4 +58,31 @@ h2{
     width: 100%;
     font-weight: bold;
 
+}
+
+.card-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.card img{
+
+    display: block;
+    text-align: center;
+    border: 1px, solid, white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+
+}
+
+.card p{
+
+    text-align: center;
+    padding: 5px;
+    
 }
