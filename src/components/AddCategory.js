@@ -9,7 +9,7 @@ export const AddCategory = ({ setCategories }) => {
         setInputValue(e.target.value)
     }
 
-    const handleSubmit = (e) => {
+    const handleSubmit = ( e ) => {
         e.preventDefault();
 
         if(inputValue.trim().length > 2){
